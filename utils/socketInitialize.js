@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 const socketInitialize = () => {
-  const socket = io("http://localhost:5000");
+  const socket = io("https://collaborative-whiteboard-backend.onrender.com");
   return socket;
 };
 
